@@ -1,3 +1,80 @@
-h1 {
-	color: red;
+header {
+	color: white;
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10px;
+	opacity: 0.8;
+	height: 50px;
 }
+
+.header-left {
+	float: left;
+	padding-left: 10px;
+}
+
+.header-left h1 {
+	color: white;
+	font-size: 20px;
+	font-family: Century;
+}
+
+.header-right {
+
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+	margin-top: -2px;
+	padding: 5px 20px 5px 0px;
+}
+
+.menu a {
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	border-left: 1px solid #808080;
+	padding: 10px 10px 10px 15px;
+}
+
+.menu a:hover {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.top-wrapper {
+	width: 100%;
+	background-image: url(turntable-1109588_960_720.jpg);
+	background-size: cover;
+	color: black;
+	text-align: center;
+}
+
+.container {
+	padding-top: 50px;
+	opacity: 0.6;
+}
+
+.container h1 {
+	padding: 300px 0px 0px 0px;
+}
+
+.container p {
+	padding: 0px 0px 300px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
