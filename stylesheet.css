@@ -380,7 +380,7 @@ header {
   background: #009ca8;
 }
 
-.filter-item-active {
+.active {
   background: #009ca8;
   color: #fff;
   cursor: default;
