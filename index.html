@@ -49,6 +49,9 @@
           <div class="top-detail">
             <a class="btn btn-top-white btn-lg" id="read-more">もっと詳しく</a>
           </div>
+          <div id="detail-description">
+            私がプログラミングを身につけて一番に感じたことは「自由」です。プログラミングができるようになる前は、どこかの企業に就職しないと食べていけないという恐怖感がありました。どこかに依存しないと生きていけないという感覚です。プログラミングで仕事をするようになって気づいたことは、どの企業もエンジニアを必要としていて、仕事も山のようにあるということでした。エンジニアで業務委託を受ければ月６０万〜１００万程度の収入になります。半年だけ働いて後は自分の時間に使うという働き方も可能です。在宅や海外でも働けます。世の中に必要とされる技術を磨き続けている限り自分は食べていけるという自信は、将来への不安を減らしてくれました。
+          </div>
         </div>
       </div>
     </div>
@@ -63,29 +66,37 @@
             <div class="icon">
               <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/lang_icons/html.png">
             </div>
-            <h4>HTML & CSS</h4>
-            <p>Webページの見た目をつくる言語</p>
+            <div class="languages-content">
+              <h4>HTML & CSS</h4>
+              <p>Webページの見た目をつくる言語</p>
+            </div>
           </div>
           <div class="languages-box">
             <div class="icon">
               <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/lang_icons/js.png">
             </div>
-            <h4>Javascript</h4>
-            <p>動的なウェブサイト構築に用いるプログラミング言語</p>
+            <div class="languages-content">
+              <h4>Javascript</h4>
+              <p>動的なウェブサイト構築に用いるプログラミング言語</p>
+            </div>
           </div>
           <div class="languages-box">
             <div class="icon">
               <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/lang_icons/jquery.png">
             </div>
-            <h4>jQuery</h4>
-            <p>効果やアニメーションを実装できるJavascriptライブラリ</p>
+            <div class="languages-content">
+              <h4>jQuery</h4>
+              <p>効果やアニメーションを実装できるJavascriptライブラリ</p>
+            </div>
           </div>
           <div class="languages-box">
             <div class="icon">
               <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/lang_icons/git.png">
             </div>
-            <h4>Git</h4>
-            <p>ソースコードのバージョン管理、共同開発を可能にするツール</p>
+            <div class="languages-content">
+              <h4>Git</h4>
+              <p>ソースコードのバージョン管理、共同開発を可能にするツール</p>
+            </div>
           </div>
         </div>
       </div>
@@ -166,6 +177,12 @@
         </div>
       </div>
     </div>
+    <!-- Mordal -->
+    <div class="apply-mordal-wrapper" id>
+      <div class="mordal">
+        
+      </div>
+    </div>
     <!-- Mentors -->
     <div id="mentors" class="mentors-section">
       <div class="container">
@@ -213,9 +230,11 @@
 
         <div class="wrapper-outer">
           <div class="column-box column">
-            <a href="#" class="caption">
-              <div class="caption-defaultWrap">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/programmer.jpg" alt="">
+            <a href="#">
+              <div>
+                <div class="column-image" style="background-image: url(https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/programmer.jpg)">
+                <div class="zoom-black"></div>
+                </div>
               </div>
             </a>
             <a href="#" class="column-title">20代のエンジニアが初めての転職でつまずきやすい点</a>
@@ -224,7 +243,9 @@
           <div class="column-box tip">
             <a href="#">
               <div>
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/html5.jpg" alt="">
+                <div class="column-image" style="background-image: url(https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/html5.jpg)"> 
+                <div class="zoom-black"></div>
+                </div>
               </div>
             </a>
             <a href="#" class="column-title">HTML5の新タグについて</a>
@@ -233,7 +254,9 @@
           <div class="column-box tip">
             <a href="#">
               <div>
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/js.jpg" alt="">
+                <div class="column-image" style="background-image: url(https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/js.jpg)">
+                <div class="zoom-black"></div>  
+                </div>
               </div>
             </a>
             <a href="#" class="column-title">Javascriptの文法まとめ</a>
@@ -242,7 +265,9 @@
           <div class="column-box column">
             <a href="#">
               <div>
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/books.jpg" alt="">
+                <div class="column-image" style="background-image: url(https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/books.jpg)">
+                <div class="zoom-black"></div>  
+                </div>
               </div>
             </a>
             <a href="#" class="column-title">新卒ソフトウェアエンジニアのための技術書100冊</a>
@@ -251,7 +276,9 @@
           <div class="column-box column">
             <a href="#">
               <div>
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/engineer.jpg" alt="">
+                <div class="column-image" style="background-image: url(https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/engineer.jpg)">
+                <div class="zoom-black"></div>
+                </div>
               </div>
             </a>
             <a href="#" class="column-title">「プレイヤーでも年収1000万円に」エンジニアの評価制度</a>
@@ -260,7 +287,9 @@
           <div class="column-box tip">
             <a href="#">
               <div>
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/inspect.jpg" alt="">
+                <div class="column-image" style="background-image: url(https://s3-ap-northeast-1.amazonaws.com/progate/lesson_images/html/practice/portfolio/inspect.jpg)">
+                <div class="zoom-black"></div>  
+                </div>
               </div>
             </a>
             <a href="#" class="column-title">要素の検証をしてみよう</a>
@@ -306,6 +335,6 @@
         </div>
       </div>
     </div>
-    <script src="script.js" ></script>
+    <script src="script.js"></script>
   </body>
 </html>
